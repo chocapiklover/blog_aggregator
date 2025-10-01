@@ -1,0 +1,33 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# TypeScript build output
+dist/
+build/
+*.tsbuildinfo
+
+# Env and config
+.env
+.env.*
+*.local
+
+# OS/Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
+
+# Boot.dev config created by the app
+~/.gatorconfig.json
