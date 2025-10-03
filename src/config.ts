@@ -9,8 +9,7 @@ export type Config = {
 
 function getConfigFilePath(): string {
     const homedir = os.homedir()
-    const filePath = path.join(homedir, "/Workspaces/blog_aggregator/.gatorconfig.json")
-    return filePath
+    return path.join(homedir, ".gatorconfig.json")
 }
 
 export function readConfig() {
@@ -42,7 +41,7 @@ function writeConfig(cfg: Config): void {
     fs.writeFileSync(getConfigFilePath(), JSON.stringify(config, null,2), { encoding: "utf-8" })
 }
 
-export function setUser(name: string): void {
+export async function setUser(name: string): Promise<void> {
     const configOnDisk = readConfig()
     const updatedConfig: Config = {...configOnDisk, currentUserName: name}
     writeConfig(updatedConfig)

@@ -1,33 +1,40 @@
 # Node
 node_modules/
 npm-debug.log*
-yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
-# TypeScript build output
+# Environment / config
+.env
+.env.*
+.gatorconfig.json
+
+# TypeScript
 dist/
 build/
 *.tsbuildinfo
 
-# Env and config
-.env
-.env.*
-*.local
+# Drizzle
+drizzle/
+.drizzle/
+.drizzle-kit/
+src/**/db.sqlite
+src/**/migrations/*.sqlite
+*.db
+*.db-journal
 
-# OS/Editor junk
+# OS / Editors
 .DS_Store
 Thumbs.db
-.vscode/
 .idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
 
 # Logs
 logs/
 *.log
-
-# Coverage
-coverage/
-
-# Boot.dev config created by the app
-~/.gatorconfig.json
+*.log.*
