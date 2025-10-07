@@ -33,7 +33,7 @@ function validateConfig(rawConfig: any) {
         }
 }
 
-function writeConfig(cfg: Config): void {
+export function writeConfig(cfg: Config): void {
     const config = {
         db_url: cfg.dbUrl,
         current_user_name: cfg.currentUserName,
