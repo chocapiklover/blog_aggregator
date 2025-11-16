@@ -8,6 +8,41 @@
       "when": 1759492360250,
       "tag": "0000_slim_plazm",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1760362941833,
+      "tag": "0001_nappy_puppet_master",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1760524217761,
+      "tag": "0002_tan_mockingbird",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1762099099901,
+      "tag": "0003_absent_dreadnoughts",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1762517405273,
+      "tag": "0004_mighty_sugar_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1763136543862,
+      "tag": "0005_colorful_spot",
+      "breakpoints": true
     }
   ]
 }
